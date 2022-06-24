@@ -6,13 +6,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+::root {
+    --event-border : background: linear-gradient(180deg, #3E8EBC 0%, #444BAB 100%);
+}
 /* --------------------------------------- NAVBAR STARTS HERE ------------------------------------------*/
 
 nav {
-
     position: absolute;
-    width: 1440px;
+    width: 100vw;
     height: 80px;
     left: 0px;
     top: 0px;
@@ -22,7 +23,6 @@ nav {
 }
 
 label.logo {
-
     position: absolute;
     width: 213px;
     height: 24px;
@@ -45,10 +45,9 @@ nav ul li {
     display: inline-block;
     line-height: 19px;
     margin-top: 34px;
-
 }
 
-a.renaissance {
+ul li a.renaissance {
     position: absolute;
     width: 93px;
     height: 19px;
@@ -58,14 +57,10 @@ a.renaissance {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
 }
 
-a.campusprograms {
-
+ul li a.campusprograms {
     position: absolute;
     width: 136px;
     height: 19px;
@@ -75,15 +70,10 @@ a.campusprograms {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
-
 }
 
-a.hirewithus {
-
+ul li a.hirewithus {
     position: absolute;
     width: 89px;
     height: 19px;
@@ -93,13 +83,10 @@ a.hirewithus {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
 }
 
-a.stories {
+ul li a.stories {
     position: absolute;
     width: 50px;
     height: 19px;
@@ -109,15 +96,10 @@ a.stories {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
-
 }
 
-a.events {
-
+ul li a.navevents {
     position: absolute;
     width: 48px;
     height: 19px;
@@ -127,30 +109,22 @@ a.events {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
-
 }
 
 .login {
-
     position: absolute;
     width: 45px;
     height: 18px;
     left: 1135px;
     top: 34px;
-
     font-family: 'Gilroy-Bold';
     font-size: 16px;
     line-height: 19px;
 
-    color: #444BAB;
-
     /* For log-in box css */
+    color: #444BAB;
     box-sizing: border-box;
-
     position: absolute;
     width: 121px;
     height: 36px;
@@ -163,25 +137,21 @@ a.events {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .startfreetrial {
-
     position: absolute;
     width: 109px;
     height: 18px;
     left: 1264px;
     top: 34px;
-
     font-family: 'Gilroy-Bold';
     font-size: 16px;
     line-height: 19px;
 
-    color: #FFFFFF;
-
+    
     /* Css used in box of start free trial */
-
+    color: #FFFFFF;
     position: absolute;
     width: 164px;
     height: 36px;
@@ -210,20 +180,18 @@ a.events {
 
 .bg img {
 
-    width: 1440px;
-    height: 596px;
+    width: 100vw;
+    height: 100vh;
     left: 0px;
     top: 80px;
-
 }
-
 
 .bgFooter {
     position: absolute;
-    width: 1440px;
+    width: 100vw;
     height: 105px;
     left: 0px;
-    top: 491px;
+    top: 585px;
     background: rgba(0, 0, 0, 0.31);
 }
 
@@ -233,8 +201,7 @@ a.events {
     width: 295px;
     left: 396px;
     top: 29px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -261,11 +228,10 @@ a.events {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18.7544px;
     line-height: 22px;
-
     color: #FFFFFF;
 }
 
-/*.bgPicBorder{
+/* .bgPicBorder{
     box-sizing: border-box;
     position: absolute;
     width: 432.52px;
@@ -276,7 +242,7 @@ a.events {
     border: 3px solid #FFFFFF;
     border-radius: 18px;
     transform: matrix(0.94, -0.3, 0.36, 0.95, 0, 0);
-}*/
+} */
 
 .bgPic img {
     position: absolute;
@@ -306,7 +272,6 @@ a.events {
 
 
 .bgVenue {
-
     position: absolute;
     width: 410px;
     height: 26px;
@@ -324,7 +289,7 @@ a.events {
 
 .bgOffer {
     position: absolute;
-    width: 760px;
+    width: 780px;
     height: 58px;
     left: 516px;
     top: 352px;
@@ -342,7 +307,7 @@ a.events {
 
 .bgOfferText {
     position: absolute;
-    width: 690px;
+    width: 700px;
     height: 46px;
     left: 65px;
     top: 10px;
@@ -373,7 +338,6 @@ a.events {
 }
 
 .bgButtonText {
-
     position: absolute;
     width: 177px;
     height: 35px;
@@ -423,24 +387,23 @@ a.events {
 .upcoming-events-container {
     /* border: 2px solid red; */
     position: absolute;
-    height: 1090px;
+    height: 1260px;
     width: 1200px;
-    top: 820px;
-    left: 120px;
+    top: 730px;
+    left: 160px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 /* EVENT BOXES */
 .events {
-    border: 2px solid red;
     height: 268px;
     width: 1196px;
-    left: 122px;
-    top: 1121px;
+    border: 2px solid #444BAB;
     border-radius: 12px;
 
     display: flex;
@@ -451,7 +414,6 @@ a.events {
 .events div {
     /* border: 2px solid red; */
     margin: 5px 0;
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -469,14 +431,12 @@ a.events {
     line-height: 39px;
 }
 
-/*Amit's work*/
+
 .calender-pic {
     left: 12.5%;
     right: 12.5%;
     top: 12.5%;
     bottom: 12.5%;
-
-
 }
 
 .date {
@@ -484,12 +444,9 @@ a.events {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.8%;
-    /* identical to box height, or 24px */
-
+    line-height: 24px;
     text-align: justify;
     color: #272834;
-
 }
 
 .time {
@@ -497,12 +454,9 @@ a.events {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.8%;
-    /* identical to box height, or 24px */
-
+    line-height: 24px;
     text-align: justify;
     color: #272834;
-
 }
 
 .button {
@@ -516,7 +470,6 @@ a.events {
 }
 
 .register {
-
     width: 133px;
     height: 22px;
     left: 715px;
@@ -526,12 +479,8 @@ a.events {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 149.8%;
-    /* or 30px */
-
-
+    line-height: 30px;
     color: #FFFFFF;
-
 }
 
 .group {
@@ -539,8 +488,6 @@ a.events {
     right: 8.33%;
     top: 16.67%;
     bottom: 16.67%;
-
-
 }
 
 .participant {
@@ -553,12 +500,9 @@ a.events {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.8%;
-    /* identical to box height, or 24px */
-
+    line-height: 24px;
     text-align: justify;
     color: #272834;
-
 }
 
 .ring {
@@ -571,43 +515,41 @@ a.events {
 
     background: #FFFFFF;
     box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .head {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
 
+.upcomingparent {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 1100px;
 }
 
 .upcoming {
-
-
+    /* border: 2px solid red; */
     width: 1068px;
     height: 54px;
-    left: 111px;
-    top: 732px;
 
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 150%;
-    /* identical to box height, or 54px */
+    line-height: 54;
 
     display: flex;
     align-items: center;
-
     color: #272834;
-
 }
 
 .add-button {
+    /* border: 2px solid red; */
     width: 62px;
     height: 62px;
-    left: 1271px;
-    top: 704px;
 
     background: linear-gradient(143.77deg, #3E8EBC 5.24%, #444BAB 84.52%);
     border-radius: 50%;
@@ -618,18 +560,10 @@ a.events {
     right: 8.91%;
     top: 19.72%;
     bottom: 79.77%;
-
     border: 4px solid #FFFFFF;
 }
 
-.upcomingparent {
-    display: flex;
-    justify-content: flex-end;
-
-}
-
 .share {
-
     width: 38px;
     height: 38px;
     left: 1256px;
@@ -638,8 +572,6 @@ a.events {
     background: #FFFFFF;
     box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
-
-
 }
 
 #sharepic {
@@ -649,28 +581,18 @@ a.events {
     right: 12.5%;
     top: 12.5%;
     bottom: 12.5%;
-
-
 }
 
 /* ------------------------------------ UPCOMING EVENT ENDS HERE ---------------------------------------*/
 
 
 /* ----------------------------------- SUCCESS STORIES STARTS HERE -------------------------------------*/
-*, ::after, ::before  {
-    box-sizing: border-box;
-}
-
 
 #myCarousel {
     width: 70%;
-
-
-
 }
 
-#successCtn {
-   
+#successCtn {  
     padding: 2.4rem;
     position: absolute;
     top: 2000px;
@@ -678,13 +600,13 @@ a.events {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
 }
 
 #succTitle { 
    text-align: center;
    color:#444BAB;
    font-size: 1.5rem;
+
 }
 
 #succText {
@@ -707,8 +629,6 @@ a.events {
     padding: 1rem;
     display: flex;
     column-gap: 30px;
-
-
 }
 
 #studentName {
@@ -740,13 +660,11 @@ a.events {
     font-size: 1.2rem;
     margin-bottom: 50px;
     width: 25%;
-    margin-left: 400px;
+    margin-left: 330px;
 }
 
 #successBtn2 {
-    background: linear-gradient(93.44deg,
-            #444bab -6.8%,
-            #3ca5c2 186.94%);
+    background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%);
     border-radius: 8px;
     color: white;
     padding-left: 1.5rem;
@@ -769,7 +687,6 @@ a.events {
 }
 
 
-
 #ssbox2 {
     display: flex;
     justify-content: center;
@@ -782,6 +699,5 @@ a.events {
 #pCaption {
     font-size: 1.5rem;
 }
-
 
 /* ------------------------------------SUCCESS STORIES STARTS HERE -------------------------------------*/
