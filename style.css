@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------------------------- NAVBAR STARTS HERE ------------------------------------------*/
+
+nav {
+
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+}
+
+label.logo {
+
+    position: absolute;
+    width: 213px;
+    height: 24px;
+    left: 89px;
+    top: 31px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 18.7544px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #444BAB;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 19px;
+    margin-top: 34px;
+
+}
+
+a.renaissance {
+    position: absolute;
+    width: 93px;
+    height: 19px;
+    left: 457px;
+    top: 34px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #4F516B;
+}
+
+a.campusprograms {
+
+    position: absolute;
+    width: 136px;
+    height: 19px;
+    left: 580px;
+    top: 34px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #4F516B;
+
+}
+
+a.hirewithus {
+
+    position: absolute;
+    width: 89px;
+    height: 19px;
+    left: 746px;
+    top: 34px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #4F516B;
+}
+
+a.stories {
+    position: absolute;
+    width: 50px;
+    height: 19px;
+    left: 865px;
+    top: 34px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #4F516B;
+
+}
+
+a.events {
+
+    position: absolute;
+    width: 48px;
+    height: 19px;
+    left: 945px;
+    top: 34px;
+
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #4F516B;
+
+}
+
+.login {
+
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 1135px;
+    top: 34px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #444BAB;
+
+    /* For log-in box css */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 121px;
+    height: 36px;
+    left: 1097px;
+    top: 25px;
+
+    border: 1px solid #444BAB;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.startfreetrial {
+
+    position: absolute;
+    width: 109px;
+    height: 18px;
+    left: 1264px;
+    top: 34px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    /* Css used in box of start free trial */
+
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    left: 1236px;
+    top: 25px;
+
+    background: #444BAB;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    position: absolute;
+    width: 35.85px;
+    height: 42.75px;
+    left: 40px;
+    top: 19px;
+}
+
+/* ----------------------------------------- NAVBAR ENDS HERE ------------------------------------------*/
+
+
+/* ------------------------------------HIGHLIGHT EVENT STARTS HERE -------------------------------------*/
+
+.bg img {
+
+    width: 1440px;
+    height: 596px;
+    left: 0px;
+    top: 80px;
+
+}
+
+
+.bgFooter {
+    position: absolute;
+    width: 1440px;
+    height: 105px;
+    left: 0px;
+    top: 491px;
+    background: rgba(0, 0, 0, 0.31);
+}
+
+.footerText {
+    position: absolute;
+    height: 54px;
+    width: 295px;
+    left: 396px;
+    top: 29px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.bgLogoPic {
+    position: absolute;
+    width: 35.71px;
+    height: 42.59px;
+    left: 1140px;
+    top: 108px;
+}
+
+.bgLogoText {
+    position: absolute;
+    width: 212.19px;
+    height: 23.91px;
+    left: 1188.81px;
+    top: 119.95px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18.7544px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+/*.bgPicBorder{
+    box-sizing: border-box;
+    position: absolute;
+    width: 432.52px;
+    height: 434.73px;
+    left: 1.44px;
+    top: 206.17px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 18px;
+    transform: matrix(0.94, -0.3, 0.36, 0.95, 0, 0);
+}*/
+
+.bgPic img {
+    position: absolute;
+    width: 355.37px;
+    height: 350px;
+    left: 60.28px;
+    top: 119.95px;
+}
+
+.bgHeading {
+    position: absolute;
+    width: 740px;
+    height: 116px;
+    left: 516px;
+    top: 172px;
+
+    font-family: 'Anek Latin', 'Anek Malayalam', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;
+
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.bgVenue {
+
+    position: absolute;
+    width: 410px;
+    height: 26px;
+    left: 516px;
+    top: 295px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 149.8%;
+    text-align: justify;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bgOffer {
+    position: absolute;
+    width: 760px;
+    height: 58px;
+    left: 516px;
+    top: 352px;
+    background: linear-gradient(180deg, #9CCBFD 50.62%, rgba(156, 203, 253, 0) 274.69%);
+    border-radius: 19px;
+}
+
+.bgHatPic img {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    left: 16px;
+    top: 11px;
+}
+
+.bgOfferText {
+    position: absolute;
+    width: 690px;
+    height: 46px;
+    left: 65px;
+    top: 10px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 149.8%;
+    text-align: justify;
+    color: #090F5F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bgRegister {
+    position: absolute;
+    width: 282px;
+    height: 45px;
+    left: 516px;
+    top: 430px;
+    background: linear-gradient(180deg, #FFF65C 0%, rgba(255, 246, 92, 0.640625) 177.73%, rgba(255, 246, 92, 0) 252.78%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 11px;
+}
+
+.bgRegister:hover {
+    cursor: pointer;
+}
+
+.bgButtonText {
+
+    position: absolute;
+    width: 177px;
+    height: 35px;
+    left: 55px;
+    top: 6px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 149.8%;
+    color: #272834;
+}
+
+.bgTr1 img {
+    position: absolute;
+    width: 85px;
+    height: 75px;
+    left: 368.22px;
+    top: 78.9px;
+}
+
+.bgTr2 img {
+    position: absolute;
+    width: 75px;
+    height: 70px;
+    left: 40px;
+    top: 36px;
+    transform: rotate(180deg);
+}
+
+.bgTr3 img {
+    position: absolute;
+    width: 75px;
+    height: 70px;
+    left: 1365px;
+    top: 36px;
+    transform: rotate(180deg);
+}
+
+/* ------------------------------------ HIGHLIGHT EVENT ENDS HERE --------------------------------------*/
+
+
+/* ------------------------------------ UPCOMING EVENT STARTS HERE -------------------------------------*/
+
+/* UPCOMING EVENTS CONTAINER */
+.upcoming-events-container {
+    /* border: 2px solid red; */
+    position: absolute;
+    height: 1090px;
+    width: 1200px;
+    top: 820px;
+    left: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* EVENT BOXES */
+.events {
+    border: 2px solid red;
+    height: 268px;
+    width: 1196px;
+    left: 122px;
+    top: 1121px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* EVENT DESCRIPTION CONTAINER */
+.events div {
+    /* border: 2px solid red; */
+    margin: 5px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* EVENT TITLES */
+.event-title {
+    /* border: 2px solid red; */
+    color: #272834;
+    width: 546px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+/*Amit's work*/
+.calender-pic {
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+
+
+}
+
+.date {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.8%;
+    /* identical to box height, or 24px */
+
+    text-align: justify;
+    color: #272834;
+
+}
+
+.time {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.8%;
+    /* identical to box height, or 24px */
+
+    text-align: justify;
+    color: #272834;
+
+}
+
+.button {
+    width: 185px;
+    height: 49px;
+    left: 691px;
+    top: 1015px;
+
+    background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+    border-radius: 6px;
+}
+
+.register {
+
+    width: 133px;
+    height: 22px;
+    left: 715px;
+    top: 1024px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.8%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+
+}
+
+.group {
+    left: 8.33%;
+    right: 8.33%;
+    top: 16.67%;
+    bottom: 16.67%;
+
+
+}
+
+.participant {
+    width: 230px;
+    height: 24px;
+    left: 921px;
+    top: 1028px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 149.8%;
+    /* identical to box height, or 24px */
+
+    text-align: justify;
+    color: #272834;
+
+}
+
+.ring {
+    position: static;
+    width: 38px;
+    height: 38px;
+    left: 1256px;
+    top: 840px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.upcoming {
+
+
+    width: 1068px;
+    height: 54px;
+    left: 111px;
+    top: 732px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    /* identical to box height, or 54px */
+
+    display: flex;
+    align-items: center;
+
+    color: #272834;
+
+}
+
+.add-button {
+    width: 62px;
+    height: 62px;
+    left: 1271px;
+    top: 704px;
+
+    background: linear-gradient(143.77deg, #3E8EBC 5.24%, #444BAB 84.52%);
+    border-radius: 50%;
+}
+
+.addpic {
+    left: 89.79%;
+    right: 8.91%;
+    top: 19.72%;
+    bottom: 79.77%;
+
+    border: 4px solid #FFFFFF;
+}
+
+.upcomingparent {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.share {
+
+    width: 38px;
+    height: 38px;
+    left: 1256px;
+    top: 840px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+
+
+}
+
+#sharepic {
+    height: 18px;
+    width: 18px;
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+
+
+}
+
+/* ------------------------------------ UPCOMING EVENT ENDS HERE ---------------------------------------*/
+
+
+/* ----------------------------------- SUCCESS STORIES STARTS HERE -------------------------------------*/
+
+#successBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    height: 500px;
+    margin-left: 15vw;
+    row-gap: 20px;
+}
+
+#sstories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+    width: 100%;
+}
+
+
+#freetrialbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-wrapper {
+    width: 1000px;
+
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.owl-carousel .owl-nav {
+    overflow: hidden;
+    height: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #5110e9;
+}
+
+.owl-carousel .item {
+    text-align: center;
+}
+
+.item>h3 {
+    border: 1px solid slateblue;
+}
+
+.owl-carousel {
+    border: 1px solid green;
+}
+
+.owl-carousel .nav-button {
+    height: 50px;
+    width: 25px;
+    outline-width: 0;
+
+    cursor: pointer;
+    position: absolute;
+    top: 25px !important;
+    border: none;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+    pointer-events: none;
+    opacity: 0.25;
+}
+
+.owl-carousel .owl-prev {
+    left: -33px;
+    border: 1px solid white;
+
+
+}
+
+.owl-carousel .owl-next {
+    right: -35px;
+
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #ffffff;
+    font-size: 39px;
+    background: none;
+    border: none;
+    border-radius: 3px;
+}
+
+.owl-carousel .prev-carousel:hover {
+    background-position: 0px -53px;
+}
+
+.owl-carousel .next-carousel:hover {
+    background-position: -24px -53px;
+}
+
+.owl-next:focus,
+.owl-prev:focus {
+    outline: none;
+    border: none;
+}
+
+
+
+.nav_img {
+    width: 30px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#ssbox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.successCard {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------------------------------------SUCCESS STORIES STARTS HERE -------------------------------------*/
