@@ -9,129 +9,124 @@
 
 /* --------------------------------------- NAVBAR STARTS HERE ------------------------------------------*/
 
+/* Navbar Container*/
 nav {
-    position: absolute;
     width: 100vw;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-
+    height: 60px;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
 }
 
-label.logo {
+/* Brand Logo */
+.brand-logo {
     position: absolute;
-    width: 213px;
+    width: 35.85px;
+    height: 42.75px;
+    left: 40px;
+    top: 10px;
+}
+
+/* Brand Title */
+.brand-title {
+    position: absolute;
+    width: 275px;
     height: 24px;
     left: 89px;
-    top: 31px;
+    top: 25px;
 
     font-family: 'Gilroy-Bold';
-    font-size: 18.7544px;
+    font-size: 26px;
     line-height: 22px;
     font-weight: bold;
     color: #444BAB;
 }
 
-nav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
+ul li {
     display: inline-block;
-    line-height: 19px;
-    margin-top: 34px;
 }
 
-ul li a.renaissance {
+ul li a {
+    text-decoration: none;
+}
+
+li .renaissance {
     position: absolute;
     width: 93px;
     height: 19px;
-    left: 457px;
-    top: 34px;
+    left: 480px;
+    top: 25px;
 
     font-family: 'Gilroy-Medium';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     color: #4F516B;
 }
 
-ul li a.campusprograms {
+li .campusprograms {
     position: absolute;
     width: 136px;
     height: 19px;
-    left: 580px;
-    top: 34px;
+    left: 600px;
+    top: 25px;
 
     font-family: 'Gilroy-Medium';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     color: #4F516B;
 }
 
-ul li a.hirewithus {
+li .hirewithus {
     position: absolute;
-    width: 89px;
+    width: 97px;
     height: 19px;
-    left: 746px;
-    top: 34px;
+    left: 760px;
+    top: 25px;
 
     font-family: 'Gilroy-Medium';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     color: #4F516B;
 }
 
-ul li a.stories {
+li .stories {
     position: absolute;
     width: 50px;
     height: 19px;
-    left: 865px;
-    top: 34px;
+    left: 890px;
+    top: 25px;
 
     font-family: 'Gilroy-Medium';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     color: #4F516B;
 }
 
-ul li a.navevents {
+li .navevents {
     position: absolute;
     width: 48px;
     height: 19px;
-    left: 945px;
-    top: 34px;
+    left: 970px;
+    top: 25px;
 
     font-family: 'Gilroy-Medium';
-    font-size: 16px;
+    font-size: 18px;
     line-height: 19px;
     color: #4F516B;
 }
 
 .login {
     position: absolute;
-    width: 45px;
-    height: 18px;
-    left: 1135px;
-    top: 34px;
-    font-family: 'Gilroy-Bold';
-    font-size: 16px;
-    line-height: 19px;
-
-    /* For log-in box css */
-    color: #444BAB;
-    box-sizing: border-box;
-    position: absolute;
-    width: 121px;
+    top: 15px;
+    left: 1180px;
     height: 36px;
-    left: 1097px;
-    top: 25px;
+    width: 121px;
 
+    color: #444BAB;
+    background: #FFFFFF ;
+    font-size: 17px;
+    font-family: 'Gilroy-Bold';
     border: 1px solid #444BAB;
     border-radius: 6px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,36 +134,19 @@ ul li a.navevents {
 
 .startfreetrial {
     position: absolute;
-    width: 109px;
-    height: 18px;
-    left: 1264px;
-    top: 34px;
-    font-family: 'Gilroy-Bold';
-    font-size: 16px;
-    line-height: 19px;
-
-
-    /* Css used in box of start free trial */
-    color: #FFFFFF;
-    position: absolute;
-    width: 164px;
+    top: 15px;
+    left: 1320px;
     height: 36px;
-    left: 1236px;
-    top: 25px;
+    width: 164px;
 
+    color: #FFFFFF;
     background: #444BAB;
+    font-size: 17px;
+    font-family: 'Gilroy-Bold';
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.icon {
-    position: absolute;
-    width: 35.85px;
-    height: 42.75px;
-    left: 40px;
-    top: 19px;
 }
 
 /* ----------------------------------------- NAVBAR ENDS HERE ------------------------------------------*/
@@ -176,86 +154,88 @@ ul li a.navevents {
 
 /* ------------------------------------HIGHLIGHT EVENT STARTS HERE -------------------------------------*/
 
-
-
-/* ------------------------------------changes made from HERE -------------------------------------*/
-
+/* Highlight event background image */
 .bg img {
-    width: 100vw;
-    height: 100vh;
+    width: 1530px;
+    height: 640px;
     left: 0px;
     top: 80px;
 }
 
-.bgFooter {
+/* Triangle Images (bgTr) */
+.bgTr1 img {
     position: absolute;
-    width: 100vw;
-    height: 105px;
-    left: 0px;
-    top: 585px;
-    background: rgba(0, 0, 0, 0.31);
+    top: 59px;
+    left: 368.22px;
+    height: 75px;
+    width: 85px;
+}
+.bgTr2 img {
+    position: absolute;
+    top: 43px;
+    left: 40px;
+    height: 68px;
+    width: 75px;
+    transform: rotate(180deg);
+}
+.bgTr3 img {
+    position: absolute;
+    top: 43px;
+    left: 1390px;
+    height: 69px;
+    width: 75px;
+    transform: rotate(180deg);
 }
 
-.footerText {
-    position: absolute;
-    height: 54px;
-    width: 295px;
-    left: 396px;
-    top: 29px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
-}
-
-.bgLogoPic {
+/* Brand logo on highlight event */
+/* .bgLogoPic {
     position: absolute;
     width: 35.71px;
     height: 42.59px;
     left: 1140px;
     top: 108px;
-}
+    background: #C4C4C4;
+    border-radius: 2.85781px;
+} */
 
+/* Brand title on highlight event */
 .bgLogoText {
     position: absolute;
-    width: 212.19px;
-    height: 23.91px;
-    left: 1188.81px;
-    top: 119.95px;
+    top: 100px;
+    left: 1250px;
+    height: 24px;
+    width: 222px;
+
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18.7544px;
+    font-size: 20px;
     line-height: 22px;
     color: #FFFFFF;
 }
 
-.bgPicBorder {
+/* Highlight event profile image */
+.bgPic img {
     position: absolute;
-    left: 45.28px;
-    top: 108.95px;
+    width: 355px;
+    height: 350px;
+    left: 60px;
+    top: 140px;
 }
 
+/* Highlight event border image*/
 .bgPicBorder img {
+    position: absolute;
+    left: 45px;
+    top: 130px;
     height: 374px;
     width: 385px;
 }
 
-.bgPic img {
-    position: absolute;
-    width: 355.37px;
-    height: 350px;
-    left: 60.28px;
-    top: 119.95px;
-}
-
+/* Highlight event title */
 .bgHeading {
     position: absolute;
     width: 740px;
     height: 116px;
-    left: 516px;
+    left: 550px;
     top: 172px;
 
     font-family: 'Anek Latin','Anek Malayalam',sans-serif;
@@ -269,11 +249,12 @@ ul li a.navevents {
     color: #FFFFFF;
 }
 
+/* Highlight event start date */
 .bgVenue {
     position: absolute;
     width: 410px;
     height: 26px;
-    left: 516px;
+    left: 550px;
     top: 295px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
@@ -285,16 +266,18 @@ ul li a.navevents {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/* Scholarship offer container */
 .bgOffer {
     position: absolute;
     width: 780px;
     height: 58px;
-    left: 516px;
+    left: 550px;
     top: 352px;
     background: linear-gradient(180deg, #9CCBFD 50.62%, rgba(156, 203, 253, 0) 274.69%);
     border-radius: 27px;
 }
 
+/* Scholarship icon */
 .bgHatPic img {
     position: absolute;
     width: 43px;
@@ -303,6 +286,7 @@ ul li a.navevents {
     top: 11px;
 }
 
+/* Scholarship text */
 .bgOfferText {
     position: absolute;
     width: 700px;
@@ -320,33 +304,35 @@ ul li a.navevents {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.bgOfferBorder {
-    box-sizing: border-box;
-    position: absolute;
-    left: 510px;
-    top: 347px;
-}
-
+/* Scholarhsip text border image */
 .bgOfferBorder img {
-    width: 770px;
-    height: 69px;
+    width: 788px;
+    height: 65px;
 }
 
+/* Scholarhsip text border position */
+.bgOfferBorder {
+    position: absolute;
+    left: 546px;
+    top: 349px;
+}
+
+/* Register Now button */
 .bgRegister {
     position: absolute;
-    width: 282px;
+    width: 260px;
     height: 45px;
-    left: 516px;
-    top: 430px;
+    left: 550px;
+    top: 440px;
     background: linear-gradient(180deg, #FFF65C 0%, rgba(255, 246, 92, 0.640625) 177.73%, rgba(255, 246, 92, 0) 252.78%);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 11px;
 }
-
-.bgRegister:hover{
+.bgRegister:hover {
     cursor:pointer;
 }
 
+/* Register Now button text */
 .bgButtonText {
     position: absolute;
     width: 177px;
@@ -362,40 +348,39 @@ ul li a.navevents {
     color: #272834;
 }
 
-.bgTr1 img{
+                                  /*----- Highlight event timer -----*/
+.bgFooter {
+    /* border: 2px solid red; */
     position: absolute;
-    width: 85px;
-    height: 75px;
-    left: 368.22px;
-    top: 78.9px;
+    width: 100vw;
+    height: 105px;
+    top: 590px;
+    background: rgba(0, 0, 0, 0.31);
 }
 
-.bgTr2 img{
+.footerText {
     position: absolute;
-    width: 75px;
-    height: 70px;
-    left: 40px;
-    top: 36px;
-    transform: rotate(180deg);
+    height: 54px;
+    width: 305px;
+    left: 410px;
+    top: 28px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
 }
 
-.bgTr3 img{
+#demo {
+    /* border: 2px solid red; */
     position: absolute;
-    width: 75px;
-    height: 70px;
-    left: 1365px;
-    top: 36px;
-    transform: rotate(180deg);
-}
-
-#demo{
-    position: absolute;
-    width: 300px;
+    width: 290px;
     height: 68px;
-    left: 700px;
-    top: 10px;
+    left: 750px;
+    top: 15px;
     font-family:'Times New Roman', Times, serif ;
-    font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 150%;
@@ -404,71 +389,61 @@ ul li a.navevents {
     color: #FFFFFF;
 }
   
-.days{
+.days {
     position: absolute;
     width: 250px;
     height: 27px;
     top: 70px;
-    left: 710px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 758px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 150%;
     color: #FFFFFF;
 }
 
-.hours{
+.hours {
     position: absolute;
     width: 250px;
     height: 27px;
     top: 70px;
-    left: 780px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 833px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 150%;
     color: #FFFFFF;
 }
 
-.minutes{
+.minutes {
     position: absolute;
     width: 250px;
     height: 27px;
     top: 70px;
-    left: 840px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 905px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 150%;
     color: #FFFFFF;
 }
 
-.seconds{
+.seconds {
     position: absolute;
     width: 250px;
     height: 27px;
     top: 70px;
-    left: 914px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 986px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 17px;
     line-height: 150%;
     color: #FFFFFF;
 }
-
-
-
-/* ------------------------------------changes made till HERE -------------------------------------*/
-
-
 
 /* ------------------------------------ HIGHLIGHT EVENT ENDS HERE --------------------------------------*/
 
@@ -619,8 +594,10 @@ ul li a.navevents {
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
-    height: 70px;
+    position: absolute;
+    top: 6px;
     width: 1100px;
+    height: 70px;
 }
 
 .upcoming {
@@ -631,7 +608,6 @@ ul li a.navevents {
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 36px;
-    line-height: 54;
 
     display: flex;
     align-items: center;
