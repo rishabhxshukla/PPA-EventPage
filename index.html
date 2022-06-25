@@ -211,10 +211,14 @@
     <h4 id="succTitle">Our Success Stories </h4>
     <h3 id="succText">What our students say about us</h3>
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-
+<ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
 
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active ">
       <div class="cItem">
      <div id="studentImage">
       <img src = "./Resources/Success Stories Images/UserProfile.png">
@@ -239,7 +243,7 @@
      </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+    <span class="sr-only">Next</span>
          </button>
   </div>
        <button type="submit"  id ="successBtn1"> Read More Stories </button>

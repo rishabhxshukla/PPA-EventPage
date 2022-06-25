@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* --------------------------------------- NAVBAR STARTS HERE ------------------------------------------*/
 
 nav {
@@ -146,7 +147,7 @@ ul li a.navevents {
     font-size: 16px;
     line-height: 19px;
 
-    
+
     /* Css used in box of start free trial */
     color: #FFFFFF;
     position: absolute;
@@ -589,26 +590,33 @@ ul li a.navevents {
     width: 70%;
 }
 
-#successCtn {  
+#successCtn {
     padding: 2.4rem;
     position: absolute;
     top: 2000px;
-    left: 250px;
+    left: 160px;
+    width: 1200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
 }
 
-#succTitle { 
-   text-align: center;
-   color:#444BAB;
-   font-size: 1.5rem;
+button.carousel-control-prev {
+    left: 0
+}
+
+#succTitle {
+    text-align: center;
+    color: #444BAB;
+    font-size: 1.5rem;
 
 }
 
 #succText {
     color: #4F516B;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -638,12 +646,15 @@ ul li a.navevents {
     font-weight: normal;
     font-size: 1.5rem;
 }
+
 .bgColorGray {
     color: black;
 }
+
 .carousel-control-prev {
-    left: 0;
+    left: -25px;
 }
+
 #successBtn1 {
     background-color: #444bab;
     color: white;
@@ -657,7 +668,6 @@ ul li a.navevents {
     font-size: 1.2rem;
     margin-bottom: 50px;
     width: 25%;
-    margin-left: 330px;
 }
 
 #successBtn2 {
@@ -677,10 +687,13 @@ ul li a.navevents {
     display: flex;
     justify-content: center;
 }
+
 #inputEmail {
-    background: #FAFAFB; border: 1px solid #EBECFF;
+    background: #FAFAFB;
     border-radius: 6px;
     width: 250px;
+    font-family: Poppins;
+    font-size: 1.2rem;
 }
 
 
@@ -693,6 +706,7 @@ ul li a.navevents {
     column-gap: 10px;
     margin-top: 50px;
 }
+
 #pCaption {
     font-size: 1.5rem;
 }
@@ -743,7 +757,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 149.8%; 
+    line-height: 149.8%;
     padding-bottom: 46px;
     color: #505050;
 }
@@ -770,9 +784,9 @@ footer {
     color: #505050;
 }
 
-.logos{
+.logos {
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: center;
     gap: 30px;
 
@@ -782,31 +796,31 @@ footer {
 }
 
 .linkedin {
-    background:  #FAFAFB;
+    background: #FAFAFB;
     border-radius: 4px;
     padding: 8px
 }
 
 .youtube {
-    background:  #FAFAFB;
+    background: #FAFAFB;
     border-radius: 4px;
     padding: 8px
 }
 
-.fb{
-    background:  #FAFAFB;
+.fb {
+    background: #FAFAFB;
     border-radius: 4px;
     padding: 8px
 }
 
 .insta {
-    background:  #FAFAFB;
+    background: #FAFAFB;
     border-radius: 4px;
     padding: 8px
 }
 
 .telegram {
-    background:  #FAFAFB;
+    background: #FAFAFB;
     border-radius: 4px;
     padding: 8px
 }
@@ -841,18 +855,18 @@ ul {
 
 
 .bottom-logo {
-   color: #FFFFFF;
-   width: 300px;
-   height: 70px;
-   position: absolute;
-   left: 1150px;
-   bottom:84px;
+    color: #FFFFFF;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 1150px;
+    bottom: 84px;
 
-   font-family: 'Gilroy-Bold';
-   font-size: 22px;
-   line-height: 26px;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+    font-family: 'Gilroy-Bold';
+    font-size: 22px;
+    line-height: 26px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 /*----------------------------------------- FOOTER ENDS HERE ------------------------------------------*/
