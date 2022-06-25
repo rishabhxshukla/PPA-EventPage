@@ -678,7 +678,6 @@ a.events {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid blue;
     align-items: center;
     row-gap: 40px;
     width: 1196px;
@@ -692,17 +691,12 @@ button.carousel-control-prev {
    text-align: center;
    color:#444BAB;
    font-size: 1.5rem;
-   border: 1px solid yellow;
 }
 
 #succText {
     color: #4F516B;
     font-size: 2.5rem;
     text-align: center;
-    border: 1px solid yellowgreen;
-}
-.carousel-inner {
-    border: 1px solid aqua;
 }
 
 #sstories {
@@ -728,12 +722,6 @@ button.carousel-control-prev {
     margin-top: 20px;
     font-size: 1.5rem;
 }
-#studentImage {
-    border: 1px solid gold;
-}
-#studentProfile {
-    border: 1px solid orangered;
-}
 #studentTitle {
     font-weight: normal;
     font-size: 1.5rem;
@@ -757,7 +745,6 @@ button.carousel-control-prev {
     font-size: 1.2rem;
     margin-bottom: 50px;
     width: 25%;
-    border: 1px solid brown;
 }
 
 #successBtn2 {
@@ -772,7 +759,6 @@ button.carousel-control-prev {
     padding-bottom: 0.8rem;
     border: none;
     font-size: 1.2rem;
-    border: 1px solid magenta;
 }
 
 #freetrialboxsuc {
@@ -781,7 +767,7 @@ button.carousel-control-prev {
     justify-content: center;
 }
 #inputEmail {
-    background: #FAFAFB; border: 1px solid #EBECFF;
+    background: #FAFAFB; 
     border-radius: 6px;
     width: 250px;
 }
