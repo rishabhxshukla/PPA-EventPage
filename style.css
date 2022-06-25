@@ -10,9 +10,8 @@
 /* --------------------------------------- NAVBAR STARTS HERE ------------------------------------------*/
 
 nav {
-
     position: absolute;
-    width: 1440px;
+    width: 100vw;
     height: 80px;
     left: 0px;
     top: 0px;
@@ -22,7 +21,6 @@ nav {
 }
 
 label.logo {
-
     position: absolute;
     width: 213px;
     height: 24px;
@@ -45,10 +43,9 @@ nav ul li {
     display: inline-block;
     line-height: 19px;
     margin-top: 34px;
-
 }
 
-a.renaissance {
+ul li a.renaissance {
     position: absolute;
     width: 93px;
     height: 19px;
@@ -58,14 +55,10 @@ a.renaissance {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
 }
 
-a.campusprograms {
-
+ul li a.campusprograms {
     position: absolute;
     width: 136px;
     height: 19px;
@@ -75,15 +68,10 @@ a.campusprograms {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
-
 }
 
-a.hirewithus {
-
+ul li a.hirewithus {
     position: absolute;
     width: 89px;
     height: 19px;
@@ -93,13 +81,10 @@ a.hirewithus {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
 }
 
-a.stories {
+ul li a.stories {
     position: absolute;
     width: 50px;
     height: 19px;
@@ -109,15 +94,10 @@ a.stories {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
-
 }
 
-a.events {
-
+ul li a.navevents {
     position: absolute;
     width: 48px;
     height: 19px;
@@ -127,30 +107,22 @@ a.events {
     font-family: 'Gilroy-Medium';
     font-size: 16px;
     line-height: 19px;
-    /* identical to box height */
-
-
     color: #4F516B;
-
 }
 
 .login {
-
     position: absolute;
     width: 45px;
     height: 18px;
     left: 1135px;
     top: 34px;
-
     font-family: 'Gilroy-Bold';
     font-size: 16px;
     line-height: 19px;
 
-    color: #444BAB;
-
     /* For log-in box css */
+    color: #444BAB;
     box-sizing: border-box;
-
     position: absolute;
     width: 121px;
     height: 36px;
@@ -163,25 +135,21 @@ a.events {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .startfreetrial {
-
     position: absolute;
     width: 109px;
     height: 18px;
     left: 1264px;
     top: 34px;
-
     font-family: 'Gilroy-Bold';
     font-size: 16px;
     line-height: 19px;
 
-    color: #FFFFFF;
 
     /* Css used in box of start free trial */
-
+    color: #FFFFFF;
     position: absolute;
     width: 164px;
     height: 36px;
@@ -209,36 +177,32 @@ a.events {
 /* ------------------------------------HIGHLIGHT EVENT STARTS HERE -------------------------------------*/
 
 
+
 /* ------------------------------------changes made from HERE -------------------------------------*/
 
-
-.bg img{
-   
-    width: 1440px;
-    height: 596px;
+.bg img {
+    width: 100vw;
+    height: 100vh;
     left: 0px;
     top: 80px;
-
 }
 
-
-.bgFooter{
+.bgFooter {
     position: absolute;
-    width: 1440px;
+    width: 100vw;
     height: 105px;
     left: 0px;
-    top: 491px;
+    top: 585px;
     background: rgba(0, 0, 0, 0.31);
 }
 
-.footerText{
+.footerText {
     position: absolute;
     height: 54px;
     width: 295px;
     left: 396px;
     top: 29px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-                 Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -248,7 +212,7 @@ a.events {
     color: #FFFFFF;
 }
 
-.bgLogoPic{
+.bgLogoPic {
     position: absolute;
     width: 35.71px;
     height: 42.59px;
@@ -256,7 +220,7 @@ a.events {
     top: 108px;
 }
 
-.bgLogoText{
+.bgLogoText {
     position: absolute;
     width: 212.19px;
     height: 23.91px;
@@ -265,22 +229,21 @@ a.events {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18.7544px;
     line-height: 22px;
-
     color: #FFFFFF;
 }
 
-.bgPicBorder{
+.bgPicBorder {
     position: absolute;
     left: 45.28px;
     top: 108.95px;
 }
 
-.bgPicBorder img{
+.bgPicBorder img {
     height: 374px;
     width: 385px;
 }
 
-.bgPic img{
+.bgPic img {
     position: absolute;
     width: 355.37px;
     height: 350px;
@@ -288,7 +251,7 @@ a.events {
     top: 119.95px;
 }
 
-.bgHeading{
+.bgHeading {
     position: absolute;
     width: 740px;
     height: 116px;
@@ -306,9 +269,7 @@ a.events {
     color: #FFFFFF;
 }
 
-
-.bgVenue{
-    
+.bgVenue {
     position: absolute;
     width: 410px;
     height: 26px;
@@ -324,9 +285,9 @@ a.events {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.bgOffer{
+.bgOffer {
     position: absolute;
-    width: 760px;
+    width: 780px;
     height: 58px;
     left: 516px;
     top: 352px;
@@ -334,7 +295,7 @@ a.events {
     border-radius: 27px;
 }
 
-.bgHatPic img{
+.bgHatPic img {
     position: absolute;
     width: 43px;
     height: 43px;
@@ -342,9 +303,9 @@ a.events {
     top: 11px;
 }
 
-.bgOfferText{
+.bgOfferText {
     position: absolute;
-    width: 690px;
+    width: 700px;
     height: 46px;
     left: 65px;
     top: 10px;
@@ -359,19 +320,19 @@ a.events {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.bgOfferBorder{
+.bgOfferBorder {
     box-sizing: border-box;
     position: absolute;
     left: 510px;
     top: 347px;
 }
 
-.bgOfferBorder img{
+.bgOfferBorder img {
     width: 770px;
     height: 69px;
 }
 
-.bgRegister{
+.bgRegister {
     position: absolute;
     width: 282px;
     height: 45px;
@@ -386,8 +347,7 @@ a.events {
     cursor:pointer;
 }
 
-.bgButtonText{
-    
+.bgButtonText {
     position: absolute;
     width: 177px;
     height: 35px;
@@ -519,24 +479,23 @@ a.events {
 .upcoming-events-container {
     /* border: 2px solid red; */
     position: absolute;
-    height: 1090px;
+    height: 1260px;
     width: 1200px;
-    top: 820px;
-    left: 120px;
+    top: 730px;
+    left: 160px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 /* EVENT BOXES */
 .events {
-    border: 2px solid red;
     height: 268px;
     width: 1196px;
-    left: 122px;
-    top: 1121px;
+    border: 2px solid #444BAB;
     border-radius: 12px;
 
     display: flex;
@@ -547,7 +506,6 @@ a.events {
 .events div {
     /* border: 2px solid red; */
     margin: 5px 0;
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -565,14 +523,12 @@ a.events {
     line-height: 39px;
 }
 
-/*Amit's work*/
+
 .calender-pic {
     left: 12.5%;
     right: 12.5%;
     top: 12.5%;
     bottom: 12.5%;
-
-
 }
 
 .date {
@@ -580,12 +536,9 @@ a.events {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.8%;
-    /* identical to box height, or 24px */
-
+    line-height: 24px;
     text-align: justify;
     color: #272834;
-
 }
 
 .time {
@@ -593,12 +546,9 @@ a.events {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.8%;
-    /* identical to box height, or 24px */
-
+    line-height: 24px;
     text-align: justify;
     color: #272834;
-
 }
 
 .button {
@@ -612,7 +562,6 @@ a.events {
 }
 
 .register {
-
     width: 133px;
     height: 22px;
     left: 715px;
@@ -622,12 +571,8 @@ a.events {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 149.8%;
-    /* or 30px */
-
-
+    line-height: 30px;
     color: #FFFFFF;
-
 }
 
 .group {
@@ -635,8 +580,6 @@ a.events {
     right: 8.33%;
     top: 16.67%;
     bottom: 16.67%;
-
-
 }
 
 .participant {
@@ -649,12 +592,9 @@ a.events {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 149.8%;
-    /* identical to box height, or 24px */
-
+    line-height: 24px;
     text-align: justify;
     color: #272834;
-
 }
 
 .ring {
@@ -667,43 +607,41 @@ a.events {
 
     background: #FFFFFF;
     box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .head {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
 
+.upcomingparent {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 1100px;
 }
 
 .upcoming {
-
-
+    /* border: 2px solid red; */
     width: 1068px;
     height: 54px;
-    left: 111px;
-    top: 732px;
 
     font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 150%;
-    /* identical to box height, or 54px */
+    line-height: 54;
 
     display: flex;
     align-items: center;
-
     color: #272834;
-
 }
 
 .add-button {
+    /* border: 2px solid red; */
     width: 62px;
     height: 62px;
-    left: 1271px;
-    top: 704px;
 
     background: linear-gradient(143.77deg, #3E8EBC 5.24%, #444BAB 84.52%);
     border-radius: 50%;
@@ -714,18 +652,10 @@ a.events {
     right: 8.91%;
     top: 19.72%;
     bottom: 79.77%;
-
     border: 4px solid #FFFFFF;
 }
 
-.upcomingparent {
-    display: flex;
-    justify-content: flex-end;
-
-}
-
 .share {
-
     width: 38px;
     height: 38px;
     left: 1256px;
@@ -734,8 +664,6 @@ a.events {
     background: #FFFFFF;
     box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50%;
-
-
 }
 
 #sharepic {
@@ -745,8 +673,6 @@ a.events {
     right: 12.5%;
     top: 12.5%;
     bottom: 12.5%;
-
-
 }
 
 /* ------------------------------------ UPCOMING EVENT ENDS HERE ---------------------------------------*/
@@ -754,14 +680,38 @@ a.events {
 
 /* ----------------------------------- SUCCESS STORIES STARTS HERE -------------------------------------*/
 
-#successBox {
+#myCarousel {
+    width: 70%;
+}
+
+#successCtn {
+    padding: 2.4rem;
+    position: absolute;
+    top: 2000px;
+    left: 160px;
+    width: 1200px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 70vw;
-    height: 500px;
-    margin-left: 15vw;
-    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+button.carousel-control-prev {
+    left: 0
+}
+
+#succTitle {
+    text-align: center;
+    color: #444BAB;
+    font-size: 1.5rem;
+
+}
+
+#succText {
+    color: #4F516B;
+    font-size: 2rem;
+    text-align: center;
 }
 
 #sstories {
@@ -773,113 +723,244 @@ a.events {
     width: 100%;
 }
 
+.cItem {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    column-gap: 30px;
+}
 
-#freetrialbox {
+#studentName {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#studentTitle {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.bgColorGray {
+    color: black;
+}
+
+.carousel-control-prev {
+    left: -25px;
+}
+
+#successBtn1 {
+    background-color: #444bab;
+    color: white;
+    border: 0 solid black;
+    border-radius: 8px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    width: 25%;
+}
+
+#successBtn2 {
+    background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%);
+    border-radius: 8px;
+    color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#freetrialboxsuc {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.carousel-wrapper {
-    width: 1000px;
-
-    position: relative;
-    text-align: center;
-    font-family: sans-serif;
-
+#inputEmail {
+    background: #FAFAFB;
+    border-radius: 6px;
+    width: 250px;
+    font-family: Poppins;
+    font-size: 1.2rem;
 }
 
-.owl-carousel .owl-nav {
-    overflow: hidden;
-    height: 0px;
-}
-
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-    background: #5110e9;
-}
-
-.owl-carousel .item {
-    text-align: center;
-}
-
-.item>h3 {
-    border: 1px solid slateblue;
-}
-
-.owl-carousel {
-    border: 1px solid green;
-}
-
-.owl-carousel .nav-button {
-    height: 50px;
-    width: 25px;
-    outline-width: 0;
-
-    cursor: pointer;
-    position: absolute;
-    top: 25px !important;
-    border: none;
-}
-
-.owl-carousel .owl-prev.disabled,
-.owl-carousel .owl-next.disabled {
-    pointer-events: none;
-    opacity: 0.25;
-}
-
-.owl-carousel .owl-prev {
-    left: -33px;
-    border: 1px solid white;
-
-
-}
-
-.owl-carousel .owl-next {
-    right: -35px;
-
-}
-
-.owl-theme .owl-nav [class*=owl-] {
-    color: #ffffff;
-    font-size: 39px;
-    background: none;
-    border: none;
-    border-radius: 3px;
-}
-
-.owl-carousel .prev-carousel:hover {
-    background-position: 0px -53px;
-}
-
-.owl-carousel .next-carousel:hover {
-    background-position: -24px -53px;
-}
-
-.owl-next:focus,
-.owl-prev:focus {
-    outline: none;
-    border: none;
-}
-
-
-
-.nav_img {
-    width: 30px;
-    height: 40px;
-    object-fit: cover;
-}
 
 #ssbox2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    row-gap: 20px;
+    column-gap: 10px;
+    margin-top: 50px;
 }
 
-.successCard {
+#pCaption {
+    font-size: 1.5rem;
+}
+
+/*------------------------------------- SUCCESS STORIES ENDS HERE -------------------------------------*/
+
+
+/*---------------------------------------- FOOTER STARTS HERE -----------------------------------------*/
+
+footer {
+    width: 100%;
+    position: absolute;
+    top: 2900px;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#footer-hr1 {
+    position: absolute;
+    width: 100vw;
+    bottom: 550px;
+    left: 0;
+}
+
+.row {
+    width: 88%;
+    margin: auto;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-/* ------------------------------------SUCCESS STORIES STARTS HERE -------------------------------------*/
+.column-1 h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 149.8%;
+    padding-bottom: 24px;
+    margin-top: -56px;
+    color: #4F516B;
+}
+
+.column-1 h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 149.8%;
+    padding-bottom: 46px;
+    color: #505050;
+}
+
+.logo {
+    height: 60.75px;
+    width: 365px;
+    position: absolute;
+    left: 1050px;
+    bottom: 480px;
+}
+
+.column-2 p {
+    position: absolute;
+    width: 466px;
+    height: 48px;
+    left: 1050px;
+    top: 120px;
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #505050;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    position: absolute;
+    left: 1050px;
+    top: 200px;
+}
+
+.linkedin {
+    background: #FAFAFB;
+    border-radius: 4px;
+    padding: 8px
+}
+
+.youtube {
+    background: #FAFAFB;
+    border-radius: 4px;
+    padding: 8px
+}
+
+.fb {
+    background: #FAFAFB;
+    border-radius: 4px;
+    padding: 8px
+}
+
+.insta {
+    background: #FAFAFB;
+    border-radius: 4px;
+    padding: 8px
+}
+
+.telegram {
+    background: #FAFAFB;
+    border-radius: 4px;
+    padding: 8px
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: -9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 149.8%;
+    text-align: center;
+    color: #66747B;
+}
+
+ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    column-gap: 41px;
+    color: #4F516B;
+}
+
+
+
+.bottom-logo {
+    color: #FFFFFF;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 1150px;
+    bottom: 84px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 22px;
+    line-height: 26px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*----------------------------------------- FOOTER ENDS HERE ------------------------------------------*/
