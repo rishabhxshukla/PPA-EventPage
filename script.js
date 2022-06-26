@@ -1,12 +1,8 @@
-//TIMER SCRIPT BEGINS HERE
-
+/* TIMER SCRIPT */
 var countDownDate = new Date("July 26, 2022 00:00:00").getTime();
-
-
 var x = setInterval(function() {
 
   var now = new Date().getTime();
-    
   var distance = countDownDate - now;
     
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -22,5 +18,3 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-
-//TIMER SCRIPT ENDS HERE

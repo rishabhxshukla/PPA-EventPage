@@ -29,7 +29,7 @@ nav {
 /* Brand Title */
 .brand-title {
     position: absolute;
-    width: 275px;
+    width: 290px;
     height: 24px;
     left: 89px;
     top: 25px;
@@ -64,7 +64,7 @@ li .renaissance {
 
 li .campusprograms {
     position: absolute;
-    width: 136px;
+    width: 150px;
     height: 19px;
     left: 600px;
     top: 25px;
@@ -77,7 +77,7 @@ li .campusprograms {
 
 li .hirewithus {
     position: absolute;
-    width: 97px;
+    width: 110px;
     height: 19px;
     left: 760px;
     top: 25px;
@@ -105,7 +105,7 @@ li .navevents {
     position: absolute;
     width: 48px;
     height: 19px;
-    left: 970px;
+    left: 975px;
     top: 25px;
 
     font-family: 'Gilroy-Medium';
@@ -172,7 +172,7 @@ li .navevents {
 }
 .bgTr2 img {
     position: absolute;
-    top: 43px;
+    top: 40px;
     left: 40px;
     height: 68px;
     width: 75px;
@@ -180,7 +180,7 @@ li .navevents {
 }
 .bgTr3 img {
     position: absolute;
-    top: 43px;
+    top: 40px;
     left: 1390px;
     height: 69px;
     width: 75px;
@@ -348,21 +348,25 @@ li .navevents {
 }
 
                                   /*----- Highlight event timer -----*/
+
+/* Highlight event timer background */
 .bgFooter {
     /* border: 2px solid red; */
     position: absolute;
     width: 1530px;
     height: 107px;
-    top: 590px;
+    top: 593px;
     background: rgba(0, 0, 0, 0.31);
 }
 
+/* Webinar starts in text */
 .footerText {
+    /* border: 2px solid red; */
     position: absolute;
-    height: 54px;
-    width: 305px;
+    height: 50px;
+    width: 310px;
     left: 410px;
-    top: 28px;
+    top: 30px;
     color: #FFFFFF;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
@@ -372,10 +376,11 @@ li .navevents {
     align-items: center;
 }
 
+/* Countdown container */
 #demo {
     /* border: 2px solid red; */
     position: absolute;
-    width: 290px;
+    width: 300px;
     height: 68px;
     left: 750px;
     top: 15px;
@@ -387,7 +392,8 @@ li .navevents {
     align-items: center;
     color: #FFFFFF;
 }
-  
+
+/* Days */
 .days {
     position: absolute;
     width: 250px;
@@ -402,12 +408,13 @@ li .navevents {
     color: #FFFFFF;
 }
 
+/* Hours */
 .hours {
     position: absolute;
     width: 250px;
     height: 27px;
     top: 73px;
-    left: 833px;
+    left: 825px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -416,12 +423,13 @@ li .navevents {
     color: #FFFFFF;
 }
 
+/* Minutes */
 .minutes {
     position: absolute;
     width: 250px;
     height: 27px;
     top: 73px;
-    left: 905px;
+    left: 880px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -430,12 +438,13 @@ li .navevents {
     color: #FFFFFF;
 }
 
+/* Seconds */
 .seconds {
     position: absolute;
     width: 250px;
     height: 27px;
     top: 73px;
-    left: 986px;
+    left: 945px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 400;
