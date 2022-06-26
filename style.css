@@ -836,7 +836,7 @@ footer {
     width: 365px;
     position: absolute;
     left: 1050px;
-    bottom: 480px;
+    bottom: 460px;
 }
 
 .column-2 p {
@@ -844,7 +844,7 @@ footer {
     width: 466px;
     height: 48px;
     left: 1050px;
-    top: 120px;
+    top: 140px;
 
     font-family: 'Poppins';
     font-weight: 400;
@@ -861,7 +861,7 @@ footer {
 
     position: absolute;
     left: 1050px;
-    top: 200px;
+    top: 230px;
 }
 
 .linkedin {
@@ -917,8 +917,10 @@ ul {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    column-gap: 41px;
     color: #4F516B;
+    margin-left: -30px;
+    width: fit-content;
+    column-gap: 35px;
 }
 
 
