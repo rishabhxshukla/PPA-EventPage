@@ -1,3 +1,5 @@
+//TIMER SCRIPT BEGINS HERE
+
 var countDownDate = new Date("July 26, 2022 00:00:00").getTime();
 
 
@@ -20,3 +22,5 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+//TIMER SCRIPT ENDS HERE
