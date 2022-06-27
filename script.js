@@ -1,4 +1,5 @@
 /* TIMER SCRIPT */
+
 var countDownDate = new Date("July 26, 2022 00:00:00").getTime();
 var x = setInterval(function() {
 
@@ -18,3 +19,32 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+/* MODAL WINDOW */
+
+/*--------------------------------------------------------------------------*/
+
+// let addEventBtn = document.getElementById('addEventBtn');
+// let mc = document.getElementById('modal-container');
+// let bg = document.getElementsByClassName('bg')[0];
+// let ue = document.getElementsByClassName('upcoming-events-container')[0];
+// let ss = document.getElementsByClassName('success-stories-container')[0];
+
+// addEventBtn.addEventListener('click', ()=>{
+//     scroll(0, 0);
+//     mc.classList.add('showModal');
+//     bg.style.display = "none";
+//     ue.style.display = "none";
+//     ss.style.display = "none";
+// });
+
+// closeEventBtn.addEventListener('click', ()=>{
+//     mc.classList.remove('showModal');
+//     bg.style.display = "block";
+//     ue.style.display = "block";
+//     ss.style.display = "block";
+// });
+/*--------------------------------------------------------------------------*/
