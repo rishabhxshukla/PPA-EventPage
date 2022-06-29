@@ -17,12 +17,14 @@
 #myCarousel {
     width: 100%;
 }
+
 .success-stories-container {
-   position: absolute; 
+    position: absolute;
     top: 2000px;
     left: 160px;
     width: 1200px;
 }
+
 #successCtn {
     display: flex;
     justify-content: center;
@@ -32,37 +34,40 @@
     margin: 0;
 }
 
-button.carousel-control-prev {
-    left: 0
-}
+/* Carousel Part */
 .carousel-container {
     display: flex;
-    padding:0;
+    padding: 0;
     justify-content: center;
-    
 }
+
 .carousel-left-control {
- width: 8%;
- display: flex;
- align-items: center;
- justify-content: center;
- 
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
+
 .carousel-right-control {
     width: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .carousel-middle {
     width: 84%;
     padding-bottom: 2rem;
 }
+
 .carousel-nav-icon {
     color: gainsboro;
 }
+
 .carousel-nav-icon:hover {
     color: lightgray;
+    cursor: pointer;
 }
 
 .carousel-indicators button {
@@ -70,28 +75,24 @@ button.carousel-control-prev {
     width: 10px !important;
     margin: 0 10px !important;
     border-radius: 100%;
-    background-color: #C4C4C4
-      !important;
-  border: 0px !important;
+    background-color: #C4C4C4 !important;
+    border: 0px !important;
 }
 
-.carousel-indicators > button.active{
+.carousel-indicators>button.active {
     height: 10px !important;
     width: 10px !important;
     margin: 0 10px !important;
     border-radius: 100%;
-    background-color: #3E8EBC 
-      !important;
-  border: 0px !important;
+    background-color: #3E8EBC !important;
+    border: 0px !important;
 }
-
 
 .succTitle {
     text-align: center;
     color: #444BAB;
     line-height: 29.96px;
     font-weight: 600;
-
 }
 
 .succText {
@@ -132,10 +133,6 @@ button.carousel-control-prev {
     color: black;
 }
 
-.carousel-control-prev {
-    left: -25px;
-}
-
 #successBtn1 {
     background-color: #444bab;
     color: white;
@@ -152,7 +149,7 @@ button.carousel-control-prev {
 }
 
 #successBtn2 {
-     background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%);
+    background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%);
     border-radius: 8px;
     color: white;
     padding-left: 1.5rem;
@@ -165,7 +162,7 @@ button.carousel-control-prev {
 }
 
 #freetrialboxsuc {
-   width: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     border: 1px solid lightgray;
@@ -175,25 +172,23 @@ button.carousel-control-prev {
 }
 
 #inputEmail {
-   background: #FAFAFB;
+    background: #FAFAFB;
     border-radius: 6px;
-    
     font-family: Poppins;
     font-size: 1.2rem;
     font-weight: 500;
     padding: 10px;
     width: 60%;
-    color: #EBECFF;
     border: 0px solid gray;
 }
-#inputEmail:focus {
-   outline: none !important;
-}
 
+#inputEmail:focus {
+    outline: none !important;
+}
 
 #ssbox2 {
     display: flex;
-    width: 50%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -206,6 +201,8 @@ button.carousel-control-prev {
     font-size: 1.5rem;
 }
 
+/* Blogs section */
+
 .blogs {
     display: flex;
     flex-direction: column;
@@ -215,11 +212,57 @@ button.carousel-control-prev {
     align-items: center;
     font-family: Poppins;
 }
-.blogs p {
-    line-height: 26.96px;
-    
+
+.cardsCtn {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.cards {
+    width: 27%;
+    padding-bottom: 20px;
+}
+
+.cardImage {
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+}
+
+.cardCaption {
+    margin: 0;
+    width: 100% !important;
+}
+
+.cardTitle {
+    color: #4F516B;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0.4rem;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.cardDesc {
+    color: #5A5959;
+    margin-top: 20px;
+    padding: 0.4rem;
+    font-family: Poppins;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 1.2rem;
+}
+
+.blogs > p {
+   font-size: 1.2rem; 
+
+}
+
+/* Videos Section */
 .videos {
     display: flex;
     flex-direction: column;
@@ -231,15 +274,13 @@ button.carousel-control-prev {
     width: 100%;
     padding-top: 1rem;
     background: #F5F5F5;
- background-image: url('Resources\\Video Image\\Rectangle 330.png');
- background-size: contain;
-   
+    background-image: url('Resources\\Video Image\\Rectangle 330.png');
+    background-size: contain;
 
 }
-.videoCards {
 
-   
-   height: 188px;
+.videoCards {
+    height: 188px;
     width: 340px;
     margin-top: 3%;
     background-image: url("Resources\\Video Images\\Rectangle 1759.png");
@@ -248,57 +289,16 @@ button.carousel-control-prev {
     justify-content: center;
     align-items: center;
     background-size: contain;
-    
-    
 }
+
 .videoCardsCtn {
     display: flex;
     flex-direction: row;
- width: 100%;
- justify-content: space-around;
- align-items: center;
- padding-bottom: 15%;
- 
-}
-.cardsCtn {
-    
-display: flex;
-width: 100%;
-justify-content: space-evenly;
-align-items: center;
-}
-.cards {
-    width: 27%;
-    padding-bottom: 20px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15%;
 
-    
-}
-.cardImage {
-    width: 100% !important;
-    padding: 0;
-    margin: 0;
-}
-.cardCaption {
-    margin: 0;
-    width: 100% !important;
-}
-.cardTitle {
-    color:#4F516B;
-    font-weight: bold;
-    margin-top: 20px;
-    padding: 0.4rem;
-    font-family: Poppins;
-    font-size: 1.5rem;
-    margin-left: 0;
-    margin-right: 0;
-}
-.cardDesc {
-    color: #5A5959;
-    margin-top: 20px;
-    padding: 0.4rem;
-    font-family: Poppins;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 
