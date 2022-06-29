@@ -152,9 +152,79 @@ li .navevents {
 /* ----------------------------------------- NAVBAR ENDS HERE ------------------------------------------*/
 
 
-/* -------------------------------------- ADD EVENT STARTS HERE -------------------------------------*/
+/* --------------------------------------- ADD EVENT STARTS HERE ---------------------------------------*/
 
-/*---------------------------------------- ADD EVENT ENDS HERE -------------------------------------*/
+/* Add Event box container */
+.add-event-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    position: absolute;
+    top: 70px;
+    left: 160px;
+    height: 818px;
+    width: 1200px;
+    padding: 50px;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 39px;
+    color: #343A40;
+    background: #FBFBFB;
+}
+
+/* Input tags */
+input {
+    font-size: 18px;
+    padding: 10px;
+}
+input::placeholder , textarea::placeholder {
+    color: #AAAAAA;
+}
+
+/* Text area */
+textarea {
+    padding: 10px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+/* Plus Icon */
+#add-icon {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 490px;
+    left: 60px;
+    height: 20px;
+    pointer-events: none;
+}
+
+/* Add Image text */
+#add-image-text {
+    position: absolute;
+    top: 483px;
+    left: 90px;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 39px;
+    color: #435BAF;
+}
+
+#choose-file {
+    position: absolute;
+    top: 480px;
+    width: 40px;
+    opacity: 0;
+}
+
+/*---------------------------------------- ADD EVENT ENDS HERE ----------------------------------------*/
 
 
 /*---------------------------------------- FOOTER STARTS HERE -----------------------------------------*/
