@@ -39,6 +39,10 @@ nav {
     line-height: 22px;
     font-weight: bold;
     color: #444BAB;
+    text-decoration: none;
+}
+.brand-title:hover{
+    color: #444BAB;
 }
 
 nav ul li {
@@ -147,6 +151,9 @@ li .navevents {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.startfreetrial:hover{
+    color: #FFFFFF;;
 }
 
 /* ----------------------------------------- NAVBAR ENDS HERE ------------------------------------------*/
