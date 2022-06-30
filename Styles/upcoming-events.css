@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ UPCOMING EVENT STARTS HERE -------------------------------------*/
+
+/* UPCOMING EVENTS CONTAINER */
+.upcoming-events-container {
+    /* border: 2px solid red; */
+    position: absolute;
+    height: 1260px;
+    width: 1200px;
+    top: 730px;
+    left: 160px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* EVENT BOXES */
+.events {
+    height: 268px;
+    width: 1196px;
+    border: 2px solid #444BAB;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* EVENT DESCRIPTION CONTAINER */
+.events div {
+    /* border: 2px solid red; */
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* EVENT TITLES */
+.event-title {
+    /* border: 2px solid red; */
+    color: #272834;
+    width: 546px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+}
+
+
+.calender-pic {
+    left: 12.5%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 12.5%;
+}
+
+.date {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #272834;
+}
+
+.time {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #272834;
+}
+
+.button {
+    width: 185px;
+    height: 49px;
+    left: 691px;
+    top: 1015px;
+
+    background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+    border-radius: 6px;
+}
+
+.register {
+    width: 133px;
+    height: 22px;
+    left: 715px;
+    top: 1024px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.group {
+    left: 8.33%;
+    right: 8.33%;
+    top: 16.67%;
+    bottom: 16.67%;
+}
+
+.participant {
+    width: 230px;
+    height: 24px;
+    left: 921px;
+    top: 1028px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #272834;
+}
+
+.ring {
+    position: static;
+    width: 38px;
+    height: 38px;
+    left: 1256px;
+    top: 840px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.25px 4px rgba(0, 0, 0, 0.25);
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.upcomingparent {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 6px;
+    width: 1100px;
+    height: 70px;
+}
+
+.upcoming {
+    /* border: 2px solid red; */
+    width: 1068px;
+    height: 54px;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+
+    display: flex;
+    align-items: center;
+    color: #272834;
+}
+
+#addEventBtn {
+    /* border: 2px solid red; */
+    width: 62px;
+    height: 62px;
+
+    background: linear-gradient(143.77deg, #3E8EBC 5.24%, #444BAB 84.52%);
+    border-radius: 50%;
+}
+
+
+/* ------------------------------------ UPCOMING EVENT ENDS HERE ---------------------------------------*/
+
+
+/* ----------------------------------- SUCCESS STORIES STARTS HERE -------------------------------------*/
+
+#myCarousel {
+    width: 100%;
+}
+.success-stories-container {
+   position: absolute; 
+    top: 2000px;
+    left: 160px;
+    width: 1200px;
+}
+
+#successCtn {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin: 0;
+}
+
+button.carousel-control-prev {
+    left: 0
+}
+.carousel-container {
+    display: flex;
+    padding:0;
+    justify-content: center;
+    
+}
+.carousel-left-control {
+ width: 8%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.carousel-right-control {
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-middle {
+    width: 84%;
+    padding-bottom: 2rem;
+}
+.carousel-nav-icon {
+    color: gainsboro;
+}
+.carousel-nav-icon:hover {
+    color: lightgray;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: #C4C4C4
+      !important;
+  border: 0px !important;
+}
+
+.carousel-indicators > button.active{
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: #3E8EBC 
+      !important;
+  border: 0px !important;
+}
+#succTitle {
+    text-align: center;
+    color: #444BAB;
+    font-size: 1.5rem;
+
+}
+
+#succText {
+    color: #4F516B;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#sstories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Poppins;
+    width: 100%;
+}
+
+.cItem {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    column-gap: 30px;
+}
+
+#studentName {
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+#studentTitle {
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.bgColorGray {
+    color: black;
+}
+
+.carousel-control-prev {
+    left: -25px;
+}
+
+#successBtn1 {
+    background-color: #444bab;
+    color: white;
+    border: 0 solid black;
+    border-radius: 8px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    width: 25%;
+}
+
+#successBtn2 {
+    background: linear-gradient(93.44deg, #444bab -6.8%, #3ca5c2 186.94%);
+    border-radius: 8px;
+    color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border: none;
+    font-size: 1.2rem;
+    width: 40%;
+}
+
+#freetrialboxsuc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid lightgray;
+    padding: 2px;
+    border-radius: 8px;
+    background: #FAFAFB;
+}
+
+#inputEmail {
+    background: #FAFAFB;
+    border-radius: 6px;
+    width: 250px;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+    width: 60%;
+    color: #EBECFF;
+    border: 0px solid gray;
+}
+#inputEmail:focus {
+   outline: none !important;
+}
+
+
+#ssbox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    column-gap: 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#pCaption {
+    font-size: 1.2rem;
+}
+
+/*------------------------------------- SUCCESS STORIES ENDS HERE -------------------------------------*/
