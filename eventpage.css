@@ -7,7 +7,488 @@
     box-sizing: border-box;
 }
 
-/* ------------------------------------ UPCOMING EVENT ENDS HERE ---------------------------------------*/
+/* ------------------------------------EVENT PAGE STARTS HERE ---------------------------------------*/
+
+
+
+.bgContainer{
+
+    width: 1440px;
+}
+
+.bgTitle{
+    position: absolute;
+    width: 1068px;
+    height: 54px;
+    left: 122px;
+    top: 770px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #272834;
+}
+
+
+.bgDescription{
+    
+    position: absolute;
+    width: 1191px;
+    height: 99px;
+    left: 123px;
+    top: 840px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 149.8%;
+    text-align: justify;
+    color: #807878;
+
+
+}
+
+.eventDateTime img{
+    position: absolute;
+    left: 122px;
+    top: 963px;
+    height: 22.5px;
+    width: 22.5px;
+
+}
+
+.eventDateTimeText{
+    
+    position: absolute;
+    width: 400px;
+    height: 33px;
+    left: 158px;
+    top: 963px;
+    line-height: 149.8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: justify;
+    color: #4b4b4b;
+}
+
+
+.eventDuration img{
+    position: absolute;
+    left: 561.75px;
+    top: 967px;
+    height: 22.5px;
+    width: 22.5px;
+
+}
+
+.eventDurationText{
+    
+    position: absolute;
+    width: 400px;
+    height: 33px;
+    left: 593.5px;
+    top: 963px;
+    line-height: 149.8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: justify;
+    color: #4b4b4b;;
+}
+
+
+.eventVenue img{
+    position: absolute;
+    left: 958px;
+    top: 967px;
+    height: 22.5px;
+    width: 19.5px;
+
+}
+
+.eventVenue1 img{
+    position: absolute;
+    left: 962.25px;
+    top: 971px;
+    height: 11.5px;
+    width: 11.5px;
+
+}
+
+.eventVenueText{
+    
+    position: absolute;
+    width: 400px;
+    height: 33px;
+    left: 990.25px;
+    top: 963px;
+    line-height: 149.8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: justify;
+    color: #4b4b4b;;
+}
+
+
+.bgRegisterButton{
+    position: absolute;
+    width: 222px;
+    height: 49px;
+    left: 122px;
+    top: 1035px;
+    background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+    border-radius: 6px;
+}
+
+.bgRegisterButtonText{
+    position: absolute;
+    width: 133px;
+    height: 27px;
+    left: 44px;
+    top: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.8%;
+    color: #FFFFFF;
+}
+
+
+.eventPeople img{
+    position: absolute;
+    left: 372.17px;
+    top: 1046.33px;
+    height: 27.33px;
+    width: 33.67px;
+}
+
+.eventPeopleText{
+    position: absolute;
+    width: 355px;
+    height: 24px;
+    left: 421px;
+    top: 1045px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 149.8%;
+    text-align: justify;
+    color: #505050;
+}
+
+
+
+.main-container{
+    position: absolute;
+    width: 1440px;
+    height: 971px;
+    left: 0px;
+    top: 1140px;
+    background: rgba(68, 75, 171, 0.03);
+}
+
+.bgHeading1{
+    position: absolute;
+    width: 208px;
+    height: 27px;
+    left: 114px;
+    top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 200.8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.bgDescription1{
+    position: absolute;
+    width: 1191px;
+    height: 99px;
+    left: 114px;
+    top: 115px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 149.8%;
+    text-align: justify;
+    color: #706e6e;
+
+}
+
+.bgHeading2{
+    position: absolute;
+    width: 344px;
+    height: 27px;
+    left: 114px;
+    top: 254px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 200.8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.outcomeBox1{
+    position: absolute;
+    width: 371px;
+    height: 133px;
+    left: 114px;
+    top: 368px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.2px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+}
+
+.outcomeBox1logo img{ 
+    margin-top: 39px;
+    margin-left: 28.75px;
+    height: 52.18px;
+    width: 58.5px;
+}
+
+.outcomeBox1Text{
+    position: absolute;
+    width: 242px;
+    height: 87px;
+    left: 119px;
+    top: 23px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 149.8%;
+    color: #646464;
+}
+
+
+.outcomeBox2{
+    position: absolute;
+    width: 371px;
+    height: 133px;
+    left: 533px;
+    top: 368px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.2px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+}
+
+.outcomeBox2logo img{ 
+    margin-top: 26px;
+    margin-left: 28.75px;
+    height: 80px;
+    width: 76px;
+}
+
+.outcomeBox2Text{
+    position: absolute;
+    width: 242px;
+    height: 87px;
+    left: 119px;
+    top: 23px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 149.8%;
+    color: #646464;
+}
+
+.outcomeBox3{
+    position: absolute;
+    width: 371px;
+    height: 133px;
+    left: 939px;
+    top: 368px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.2px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+}
+
+.outcomeBox3logo img{ 
+    margin-top: 26px;
+    margin-left: 28.75px;
+    height: 80px;
+    width: 76px;
+}
+
+.outcomeBox3Text{
+    position: absolute;
+    width: 242px;
+    height: 87px;
+    left: 119px;
+    top: 23px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 149.8%;
+    color: #646464;
+}
+
+
+.outcomeBox4{
+    position: absolute;
+    width: 371px;
+    height: 133px;
+    left: 325px;
+    top: 541px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0.2px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+}
+
+.outcomeBox4logo img{ 
+    margin-top: 39px;
+    margin-left: 28.75px;
+    height: 52.18px;
+    width: 58.5px;
+}
+
+.outcomeBox4Text{
+    position: absolute;
+    width: 242px;
+    height: 87px;
+    left: 119px;
+    top: 39px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 149.8%;
+    color: #646464;
+}
+
+
+.outcomeBox5{
+    position: absolute;
+    width: 371px;
+    height: 133px;
+    left: 734px;
+    top: 541px;
+    background: #FFFFFF;
+    box-shadow: 0px 0.2px 4px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+}
+
+.outcomeBox5logo img{ 
+    margin-top: 39px;
+    margin-left: 28.75px;
+    height: 52.18px;
+    width: 58.5px;
+}
+
+.outcomeBox5Text{
+    position: absolute;
+    width: 242px;
+    height: 87px;
+    left: 119px;
+    top: 39px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 149.8%;
+    color: #646464;
+}
+
+.bgRegisterButton2{
+    position: absolute;
+    width: 222px;
+    height: 49px;
+    left: 605px;
+    top: 720px;
+    background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+    border-radius: 6px;
+}
+
+.bgRegisterButtonText2{
+    position: absolute;
+    width: 133px;
+    height: 27px;
+    left: 44px;
+    top: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 149.8%;
+    color: #FFFFFF;
+}
+
+.eventPeople2 img{
+    position: absolute;
+    left: 555.17px;
+    top: 800.33px;
+    height: 27.33px;
+    width: 33.67px;
+}
+
+.eventPeopleText2{
+    position: absolute;
+    width: 355px;
+    height: 24px;
+    left: 604px;
+    top: 800.33px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 149.8%;
+    text-align: justify;
+    color: #505050;
+}
+
+.logoLinkedin img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 110px;
+    top: 875px;
+
+}
+
+.logoFacebook img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 196px;
+    top: 875px;
+
+}
+
+
+
+/* ------------------------------------EVENT PAGE ENDS HERE ---------------------------------------*/
 
 
 /* ----------------------------------- SUCCESS STORIES STARTS HERE -------------------------------------*/
@@ -18,7 +499,7 @@
 
 .success-stories-container {
     position: absolute;
-    top: 2000px;
+    top: 2150px;
     left: 160px;
     width: 1200px;
 }
@@ -309,7 +790,7 @@
 footer {
     width: 100%;
     position: absolute;
-    top: 4600px;
+    top: 4750px;
     padding: 10px;
     font-size: 13px;
     line-height: 20px;
