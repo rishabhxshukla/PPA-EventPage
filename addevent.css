@@ -223,6 +223,84 @@ textarea {
     width: 40px;
     opacity: 0;
 }
+/*amit's contribution*/
+.info {
+display: flex;
+justify-content: space-between;
+}
+#date{
+    box-sizing: border-box;
+
+
+width: 350px;
+height: 51px;
+left: 141px;
+top: 765px;
+
+background: #FFFFFF;
+border: 1px solid rgba(68, 75, 171, 0.1);
+}
+#time {
+    box-sizing: border-box;
+
+
+width: 350px;
+height: 51px;
+left: 543px;
+top: 765px;
+
+background: #FFFFFF;
+border: 1px solid rgba(68, 75, 171, 0.1);
+}
+#duration {
+    box-sizing: border-box;
+
+
+width: 350px;
+height: 51px;
+left: 946px;
+top: 765px;
+
+background: #FFFFFF;
+border: 1px solid rgba(68, 75, 171, 0.1);
+}
+#venue {
+    box-sizing: border-box;
+
+
+width: 483px;
+height: 51px;
+left: 143px;
+top: 888px;
+
+background: #FFFFFF;
+border: 1px solid rgba(68, 75, 171, 0.1);
+}
+#participants{
+    box-sizing: border-box;
+
+
+width: 524px;
+height: 51px;
+left: 772px;
+top: 888px;
+
+background: #FFFFFF;
+border: 1px solid rgba(68, 75, 171, 0.1);
+}
+
+#publishBtn{
+    position: absolute;
+width: 202px;
+height: 49px;
+left: 1144px;
+top: 1054px;
+
+background: linear-gradient(93.44deg, #444BAB -6.8%, #3CA5C2 186.94%);
+border-radius: 6px;
+}
+
+
 
 /*---------------------------------------- ADD EVENT ENDS HERE ----------------------------------------*/
 
