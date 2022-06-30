@@ -18,19 +18,25 @@
 
   <nav>
 
-    <div class="brand-logo"><img src="Resources/Navbar Images/pplogo1.png" height=45px></div>
+    <div class="brand-logo">
+      <a href="https://renaissance.programmingpathshala.com/crack-coding-interviews">
+        <img src="Resources/Navbar Images/pplogo1.png" height=45px> 
+      </a>
+    </div>
+    
     <ul>
-      <label class="brand-title"> Programming Pathshala</label>
-
+      <a href="https://renaissance.programmingpathshala.com/crack-coding-interviews" class="brand-title">Programming Pathshala</a>
+      
       <li><a class="renaissance" href="#">Renaissance</a></li>
       <li><a class="campusprograms" href="#">Campus Programs</a></li>
       <li><a class="hirewithus" href="#">Hire With Us</a></li>
-      <li><a class="stories" href="#">Stories</a></li>
+      <li><a class="stories" href="https://renaissance.programmingpathshala.com/crack-coding-interviews/stories">Stories</a></li>
       <li><a class="navevents" href="#">Events</a></li>
 
-      <label class="login" input type="button">Log In</label>
-      <label class="startfreetrial" input type="button">Start Free Trial</label>
+      <li><a href="#" class="login">Log In</a></li>
+      <li><a href="#" class="startfreetrial">Start Free Trial</a></li>
     </ul>
+    
   </nav>
 
 <!-------------------------------------- NAVBAR ENDS HERE --------------------------------------------->
@@ -50,32 +56,51 @@
 
     <img src="Resources/Add Event Images/add icon.png" alt="Add icon" id="add-icon">
     <input type="file" id="choose-file">
-    <h3 id="add-image-text">Add Image</h3> <br>
-    <!---Amit's contribution-->
-    <div class="info"><span id="D"><b>Date</b><br><input id="date" type="date"></span>
-    <span id="t"><b>Time</b><br><input id="time" type="time"></span>
-    <span id="Dura">Duration <br><input id="duration" type="number"></span></div>
+    <h3 id="add-image-text">Add Image</h3> 
+    <br>
 
-    <div class="info">
-      <span id="v">Venue <br> <select name="select a platform" id="venue">
-        <option value="select a platform"><b>SELECT AN ONLINE PLATFORM</b></option>
-        <option value="Google Meet">Google Meet</option>
-  <option value="Zoom">Zoom</option>
-  <option value="Discord">Discord</option>
-  
-      </select></span>
-      <span id="no.">No. of Praticipants <br> <input id="participants" type="number"></span>
+
+    <div class="lowerdivs">
+        <span>
+            Date <br>
+            <input id="date" type="date">
+        </span>
+        <span>
+            Time <br>
+            <input id="time" type="time">
+        </span>
+        <span>
+            Duration <br>
+            <input id="duration" type="number">
+        </span>
+    </div>
+
+
+    <div class="lowerdivs">
+
+      <span>
+          Venue <br> 
+          <select id="venue">
+              <option>Choose Your Option</option>
+              <option value="1">Google Meet</option>
+              <option value="2">Zoom</option>
+              <option value="3">Discord</option>
+          </select>
+      </span>
+
+      <span>
+          No. of Praticipants <br> 
+          <input id="participants" type="number">
+      </span>
+
     </div> 
    
+
 </div> 
- <div class="publish">
-  <a href="https//www.google.com">  
-    <button id="publishBtn">Publish</button>
-  </a>
- </div>
-  
 
-
+<a href="#">
+    <button id="publish-button">Publish</button>
+</a>
 
 <!------------------------------------- ADD EVENT ENDS HERE -------------------------------------------->
 
